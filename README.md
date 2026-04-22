@@ -1,16 +1,53 @@
-# React + Vite
+# Aegis Desk
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aegis Desk is a modern security operations dashboard built with React and Vite. It features AI-powered insights, ticketing system, command center, audit logs, and more for streamlined cybersecurity management.
 
-Currently, two official plugins are available:
+## ✨ Features
+- **Dashboard & Overview**: Real-time metrics and insights.
+- **Tickets Management**: Create, view, and manage security tickets.
+- **AI Analysis**: AI-driven threat analysis and response generation.
+- **Security & Audit**: Security scans and audit trails.
+- **Auth & Settings**: User authentication, profile, and app settings.
+- Responsive design with sidebar navigation, chat interface, and notifications.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Tech Stack
+- React (with hooks and context)
+- Vite (fast HMR and builds)
+- ESLint for code quality
+- Custom AI services and utilities
+- Tailwind CSS / custom styles (inferred from structure)
 
-## React Compiler
+## 📋 Prerequisites
+- Node.js (v18 or higher)
+- npm (or yarn/pnpm)
+- Git
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Quick Start
 
-## Expanding the ESLint configuration
+1. **Clone the repository**:
+   ```
+   git clone https://github.com/aldrich27dev/aegis-desk.git
+   cd aegis-desk
+   ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. **Install dependencies**:
+   ```
+   npm install
+   ```
+
+3. **Start development server**:
+   ```
+   npm run dev
+   ```
+   Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+
+## 🤝 Contributing
+Fork the repo, create a branch, make changes, and submit a PR.
+
+## 📸 Screenshots
+(Add screenshots of dashboard, tickets, AI chat here)
+
+## License
+MIT
+
